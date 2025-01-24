@@ -1,0 +1,83 @@
+/home/asifakie/lab05
+example1.c
+example2.c
+example3.c
+example4.c
+example5.c
+example6.c
+log.txt
+OS
+
+  File: log.txt
+  Size: 99        	Blocks: 8          IO Block: 4096   regular file
+Device: 811h/2065d	Inode: 410587      Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1250/asifakie)   Gid: ( 1252/asifakie)
+Access: 2024-12-19 13:01:22.636288024 +0200
+Modify: 2024-12-19 13:00:39.227834062 +0200
+Change: 2024-12-19 13:00:39.227834062 +0200
+ Birth: -
+cp: cannot stat 'source.txt': No such file or directory
+mv: cannot stat 'oldname.txt': No such file or directory
+rm: cannot remove 'scrumfile.txt': No such file or directory
+rmdir: failed to remove 'empty_directory': No such file or directory
+rm: cannot remove 'empty_directory': Is a directory
+rm: cannot remove 'directory_to_delete': No such file or directory
+./example1.c
+#include <stdio.h>
+
+int main(void) {
+    int x = 10;      // A normal integer variable
+    int *p;          // p is a pointer to an integer
+
+    p = &x;          // p now holds the address of x
+
+    printf("Value of x: %d\n", x);
+    printf("Address of x: %p\n", (void*)&x);
+    printf("Value of p: %p\n", (void*)p);
+    printf("Value pointed to by p: %d\n", *p);
+
+    *p = 20;         // Change the value of x using the pointer
+    printf("New value of x: %d\n", x);
+
+    return 0;
+}
+
+#include <stdio.h>
+
+int main(void) {
+    int x = 10;      // A normal integer variable
+    int *p;          // p is a pointer to an integer
+
+    p = &x;          // p now holds the address of x
+
+    printf("Value of x: %d\n", x);
+    printf("Address of x: %p\n", (void*)&x);
+    printf("Value of p: %p\n", (void*)p);
+    printf("Value pointed to by p: %d\n", *p);
+
+    *p = 20;         // Change the value of x using the pointer
+    printf("New value of x: %d\n", x);
+
+    return 0;
+}
+
+#include <stdio.h>
+
+int main(void) {
+    int x = 10;      // A normal integer variable
+    int *p;          // p is a pointer to an integer
+
+    p = &x;          // p now holds the address of x
+
+    printf("Value of x: %d\n", x);
+    printf("Address of x: %p\n", (void*)&x);
+    printf("Address of x: %p\n", (void*)&x);
+    printf("Value of p: %p\n", (void*)p);
+    printf("Value pointed to by p: %d\n", *p);
+
+    *p = 20;         // Change the value of x using the pointer
+    printf("New value of x: %d\n", x);
+
+    return 0;
+}
+
